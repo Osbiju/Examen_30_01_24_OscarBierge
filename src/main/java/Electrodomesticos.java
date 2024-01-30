@@ -10,7 +10,7 @@ public class Electrodomesticos extends Productes{
 
 
     public Electrodomesticos(String nombre, String marca, double precio, int stock, Date fechaCompra, double rebaja,int consumoEnergetico, Date fechaFabricacion, int capacidadCargaLavadora) {
-        super(nombre, marca, precio, stock, fechaCompra, rebaja);
+        super(nombre, marca, precio, stock, rebaja);
         this.consumoEnergetico = consumoEnergetico;
         this.fechaFabricacion = fechaFabricacion;
         this.capacidadCargaLavadora = capacidadCargaLavadora;

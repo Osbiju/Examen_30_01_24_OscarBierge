@@ -6,7 +6,7 @@ public class Belleza extends Productes{
 
 
     public Belleza(String nombre, String marca, double precio, int stock, Date fechaCompra, double rebaja, boolean esVegano, String temporadaUso) {
-        super(nombre, marca, precio, stock, fechaCompra, rebaja);
+        super(nombre, marca, precio, stock, rebaja);
         this.esVegano = esVegano;
         this.temporadaUso = temporadaUso;
     }

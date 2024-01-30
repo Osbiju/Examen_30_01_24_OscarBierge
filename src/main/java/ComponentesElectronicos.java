@@ -9,7 +9,7 @@ public class ComponentesElectronicos extends Productes{
 
 
     public ComponentesElectronicos(String nombre, String marca, double precio, int stock, Date fechaCompra, double rebaja, int resolucionImagen, int capacidadBateria) {
-        super(nombre, marca, precio, stock, fechaCompra, rebaja);
+        super(nombre, marca, precio, stock, rebaja);
         this.resolucionImagen = resolucionImagen;
         this.capacidadBateria = capacidadBateria;
     }
